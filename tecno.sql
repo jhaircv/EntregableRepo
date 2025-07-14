@@ -22,7 +22,7 @@ INSERT INTO cliente (nombre, correo, telefono) VALUES
 ('Juan Perez', 'juan@example.com', '999888777'),
 ('Ana Torres', 'ana@example.com', '988777666');
 
-CREATE TABLE IF NOT EXISTS proyecto (
+CREATE TABLE proyecto (
     idproyecto INT AUTO_INCREMENT PRIMARY KEY,
     nombre VARCHAR(100) NOT NULL,
     descripcion TEXT NOT NULL,
